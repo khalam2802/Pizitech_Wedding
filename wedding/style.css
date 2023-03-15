@@ -279,14 +279,7 @@ h4 {
   font-weight: 500;
   color: #fff;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
+
   border-radius: 50px;
 }
 .btn1:hover {
@@ -396,10 +389,7 @@ h4 {
   border-radius: 100%;
   background: #f07677;
   color: #fff;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+
   transition: all 0.5s ease;
   z-index: 9999 !important;
   opacity: 0.8;
@@ -431,10 +421,6 @@ h4 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
 }
 
 /***All plugins Reset***/
@@ -459,10 +445,7 @@ h4 {
   text-align: center;
   padding: 0;
   margin: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+
   transition: all 0.5s ease;
 }
 .owl-controls .owl-buttons div:hover {
@@ -1611,9 +1594,6 @@ header.sticky {
   margin: 0 auto 50px;
   overflow: hidden;
 
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
 }
 .persons-area .persons figure img {
@@ -1696,8 +1676,6 @@ header.sticky {
   width: 90px;
   margin-right: -30px;
   background: #f07677;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
 }
 
 .counter-area .content:after {
@@ -1840,9 +1818,6 @@ header.sticky {
   border: none;
   overflow: hidden;
 
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
 }
 .family-area .family-tabbox .nav li a img {
@@ -1880,9 +1855,6 @@ header.sticky {
   margin: 0 auto 20px;
   overflow: hidden;
 
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
 
   transition: all 0.5s ease;
@@ -1969,14 +1941,7 @@ header.sticky {
   z-index: 9;
   background: #f07677;
   color: #fff;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   border-radius: 100%;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -2009,9 +1974,7 @@ header.sticky {
   z-index: 9;
   background: #f07677;
   color: #fff;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
+
   border-radius: 100%;
 
   transition: all 0.5s ease;
@@ -2025,8 +1988,6 @@ header.sticky {
   left: 25px;
   top: 23px;
   background: #f07677;
-  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
-  clip-path: polygon(0 0, 0% 100%, 100% 50%);
 }
 .love-story .love-storys .story-list .story.first {
   margin-top: 200px;
@@ -2057,8 +2018,6 @@ header.sticky {
 
 .love-story .love-storys .story-list .story .storys .top-fig figure img {
   width: 100%;
-  -webkit-transition: all 0.5s ease;
-
   transition: all 0.5s ease;
 }
 .love-story .love-storys .story-list .story .storys .top-fig .con {
@@ -2143,7 +2102,7 @@ header.sticky {
   width: 100%;
 }
 
-/* Testimonial area start here */
+/* Testimonial */
 
 .testimonial-area {
   position: relative;
@@ -2220,9 +2179,7 @@ header.sticky {
   padding: 5px;
   text-align: center;
   margin: 0 6px;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
+
   border-radius: 100%;
 }
 .socials li a {
@@ -2230,9 +2187,7 @@ header.sticky {
   line-height: 37px;
   border: 1px dashed #b7b7b7;
   color: #f07677;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
+
   border-radius: 100%;
 }
 .socials li a:hover {
@@ -2261,9 +2216,7 @@ header.sticky {
   top: 0;
   padding: 10px 20px;
   background: #f07677;
-  -webkit-border-radius: 0 0 15px 15px;
-  -moz-border-radius: 0 0 15px 15px;
-  -ms-border-radius: 0 0 15px 15px;
+
   border-radius: 0 0 15px 15px;
 }
 .blog-area .blogs figure .date strong {
@@ -2283,10 +2236,7 @@ header.sticky {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   margin: 0 0 10px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+
   transition: all 0.5s ease;
 }
 .blog-area .blogs .content ul {
@@ -2381,17 +2331,8 @@ header.sticky {
   line-height: 155px;
   height: 155px;
   margin: 0 auto 20px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
   border-radius: 50px;
-  -webkit-transition: 0 2px 10px rgba(0, 0, 0, 0.1);
-  -moz-transition: 0 2px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .contact-info .info-list span:hover {
@@ -2437,8 +2378,6 @@ header.sticky {
   bottom: -55px;
   right: 15px;
   background: rgba(255, 255, 255, 0.3);
-  -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   z-index: 9;
 }
 
@@ -2508,11 +2447,16 @@ header.sticky {
   line-height: 170px;
   background: #fff;
   margin-top: 12px;
+  border-radius: 20px;
+}
+.rspv-area .rspv-form form button:hover{
+  background-color: #F59FA0;
+  transition: .5s;
+  font-weight: 600;
 }
 
-/*....................................
-20. Gallery area start here
-....................................*/
+/*
+20. Gallery*/
 .gallery-area {
   position: relative;
   background: url(images/gallery/bg.jpg);
@@ -2579,7 +2523,7 @@ header.sticky {
   transform: scale(1, 1);
 }
 
-/*  Event area start here */
+/*  Event  */
 
 .event-area .events {
   text-align: center;
@@ -2682,9 +2626,7 @@ header.sticky {
   margin: 0 auto 30px;
 }
 
-/*....................................
-22. Footer area start here
-....................................*/
+/* Footer*/
 footer {
   position: relative;
   display: block;

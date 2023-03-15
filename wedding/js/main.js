@@ -1,22 +1,18 @@
 (function ($) {
   "use strict";
 
-  // Preloader
+
   jQuery(window).on("load", function () {
     jQuery("#status").fadeOut();
     jQuery("#preloader").delay(350).fadeOut("slow");
   });
 
-  /*----------------------------
- 2. Mobile Menu Activation
------------------------------*/
+
   jQuery(".mobile-menu nav").meanmenu({
     meanScreenWidth: "768",
   });
 
-  /*--------------------------
- 3. Sticky Menu 
----------------------------- */
+
   $(window).on("scroll", function () {
     if ($(window).scrollTop() > 750) {
       $("#sticky").addClass("sticky");
@@ -25,7 +21,7 @@
     }
   });
 
-  //Single page scroll js for main menu
+
 
   $(".menu_scroll ul li a").on("click", function (e) {
     $(".menu_scroll ul li").removeClass("active");
@@ -57,23 +53,20 @@
     }
   });
 
-  /*----------------------------
-4. wow js active
------------------------------- */
+
+// . wow js active
+
   new WOW().init();
 
-  /*----------------------------
-5. owl active
------------------------------- */
 
-  //testimonial Slider
+  
   $(".testimonial").owlCarousel({
     autoPlay: true,
     slideSpeed: 2000,
     pagination: false,
     navigation: false,
     items: 1,
-    /* transitionStyle : "fade", */ /* [This code for animation ] */
+    
     navigationText: [
       "<i class='fas fa-angle-left'></i>",
       "<i class='fas fa-angle-right'></i>",
@@ -84,14 +77,14 @@
     itemsMobile: [480, 1],
   });
 
-  //Register Slider
+  
   $(".reg-slider").owlCarousel({
     autoPlay: true,
     slideSpeed: 2000,
     pagination: true,
     navigation: false,
     items: 3,
-    /* transitionStyle : "fade", */ /* [This code for animation ] */
+    
     navigationText: [
       "<i class='fas fa-angle-left'></i>",
       "<i class='fas fa-angle-right'></i>",
@@ -102,14 +95,14 @@
     itemsMobile: [480, 1],
   });
 
-  //Gallery Slider
+  
   $(".gallery-slider").owlCarousel({
     autoPlay: true,
     slideSpeed: 2000,
     pagination: true,
     navigation: false,
     items: 4,
-    /* transitionStyle : "fade", */ /* [This code for animation ] */
+    
     navigationText: [
       "<i class='fas fa-angle-left'></i>",
       "<i class='fas fa-angle-right'></i>",

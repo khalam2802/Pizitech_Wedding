@@ -1,7 +1,3 @@
-/**
- * downCount: Simple Countdown clock with offset
- * Author: Sonny T. <hi@sonnyt.com>, sonnyt.com
- */
 
 (function ($) {
   $.fn.downCount = function (options, callback) {
